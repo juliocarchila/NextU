@@ -1,0 +1,155 @@
+body{
+  font-family: Helvetica, "Myriad Pro", sans-serif;
+  font-size: 11pt;
+  color: #474747;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+header, section, footer{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#titulo_principal{
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #57c7e7;
+  margin: 0;
+  padding: 0.3em;
+  background: rgb(77, 77, 77);
+}
+
+.info{
+  background: rgb(240,240,240);
+  padding: 1em;
+}
+.titulo{
+  text-transform: uppercase;
+  color: #676767;
+  font-size: 2em;
+  margin: 0;
+}
+.titulo_informativo{
+  color: #37a7b7;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+#main_nav{
+  background: rgb(250,250,250);
+  margin: 0;
+}
+#menu, #social_menu{
+  list-style: none;
+  padding: 0;
+}
+.menu_item{
+  display: inline-block;
+  width: 32.3%;
+  border-left: 2px solid white;
+}
+.menu_item:first-child{
+  border-left: none;
+}
+.menu_item a{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  padding: 1em;
+  color: rgb(77,77,77);
+  text-decoration: none;
+  font-weight: 800;
+  background: rgb(250, 250, 250);
+  display: block;
+}
+.menu_item a:hover{
+  background: rgb(77, 77, 77);
+  color: #57c7e7;
+}
+
+.titulo_contenido{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(77,77,77);
+  text-decoration: underline;
+}
+
+#profile_picture{
+  width: 300px;
+  border-radius: 150px;
+  border: 6px solid rgb(250,250,250);
+  box-shadow: rgba(77,77,77,0.6) 2px 2px 15px;
+}
+
+.info_text{
+  text-align: justify;
+  padding: 0 3em;
+  color: rgb(77, 77, 77);
+}
+.info_text p{
+  text-indent: 3em;
+}
+.info_text h3{
+  text-transform: uppercase;
+}
+#tabla_educacion{
+  width: 100%;
+  border: 1px solid rgb(77,77,77);
+}
+tr, td, th{
+  border: 1px solid rgb(180,180,180);
+  padding: 0.2em;
+}
+#tabla_educacion, tr, td, th{
+  border-collapse: collapse;
+}
+th{
+  text-align: center;
+}
+form{
+  width: 500px;
+  margin: 0 auto;
+}
+fieldset{
+  border-radius: 15px;
+  border: 5px solid rgb(190,210,250);
+  background: rgba(220, 220, 220, 0.5);
+  box-shadow: 5px 5px 15px rgba(77, 77, 77, 0.2);
+}
+
+footer{
+  background: rgb(250,250,250);
+  padding: 0.2em;
+  border-radius: 15px;
+  margin-bottom: 3em;
+}
+#titulo_social{
+  text-transform: uppercase;
+  color: rgb(50,150,150);
+}
+.footer_link{
+  display: inline-block;
+  border-right: 1px solid rgb(200,200,200);
+}
+.footer_link:first-child{
+  border-left: 1px solid rgb(200,200,200);
+}
+.footer_link a{
+  display: block;
+}
+.footer_link a img{
+  width: 30px;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.footer_link a:hover img{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
